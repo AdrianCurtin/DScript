@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Libs">
+      <UniqueIdentifier>{6eab3628-a1f7-48d5-9070-b5a72fbad8c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\fmod">
+      <UniqueIdentifier>{ea95c601-f305-4a67-b11d-04e172e98648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\libpng">
+      <UniqueIdentifier>{93b23827-208e-41d5-952d-9fac6fb4ac04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\libpng\zlib">
+      <UniqueIdentifier>{d6ce7576-f367-42d2-a073-fe5c8c7b5d28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\QPC">
+      <UniqueIdentifier>{45ebff4b-f372-4884-8da3-702c75e55a86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\rapidxml">
+      <UniqueIdentifier>{9c4e602c-475a-43d0-99bc-0b7f50320263}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\glmimg\glmimg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\glmimg\libpng\png.c">
+      <Filter>Libs\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\glmimg\libpng\pngread.c">
+      <Filter>Libs\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\glmimg\libpng\pngrio.c">
+      <Filter>Libs\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\glmimg\libpng\pngrtran.c">
+      <Filter>Libs\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\glmimg\libpng\pngrutil.c">
+      <Filter>Libs\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\glmimg\libpng\pngset.c">
+      <Filter>Libs\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\glmimg\libpng\pngtrans.c">
+      <Filter>Libs\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\glmimg\libpng\pngvcrd.c">
+      <Filter>Libs\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\glmimg\libpng\pngwio.c">
+      <Filter>Libs\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\glmimg\libpng\pngwrite.c">
+      <Filter>Libs\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\glmimg\libpng\pngwtran.c">
+      <Filter>Libs\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\glmimg\libpng\pngwutil.c">
+      <Filter>Libs\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\glmimg\libpng\pngerror.c">
+      <Filter>Libs\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\glmimg\libpng\pnggccrd.c">
+      <Filter>Libs\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\glmimg\libpng\pngget.c">
+      <Filter>Libs\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\glmimg\libpng\pngmem.c">
+      <Filter>Libs\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\glmimg\libpng\pngpread.c">
+      <Filter>Libs\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\glmimg\libpng\zlib\crc32.cpp">
+      <Filter>Libs\libpng\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\glmimg\libpng\zlib\deflate.cpp">
+      <Filter>Libs\libpng\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\glmimg\libpng\zlib\gzio.cpp">
+      <Filter>Libs\libpng\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\glmimg\libpng\zlib\infback.cpp">
+      <Filter>Libs\libpng\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\glmimg\libpng\zlib\inffast.cpp">
+      <Filter>Libs\libpng\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\glmimg\libpng\zlib\inflate.cpp">
+      <Filter>Libs\libpng\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\glmimg\libpng\zlib\inftrees.cpp">
+      <Filter>Libs\libpng\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\glmimg\libpng\zlib\trees.cpp">
+      <Filter>Libs\libpng\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\glmimg\libpng\zlib\uncompr.cpp">
+      <Filter>Libs\libpng\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\glmimg\libpng\zlib\zutil.cpp">
+      <Filter>Libs\libpng\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\glmimg\libpng\zlib\adler32.cpp">
+      <Filter>Libs\libpng\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\glmimg\libpng\zlib\compress.cpp">
+      <Filter>Libs\libpng\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\QPC\QPC.cpp">
+      <Filter>Libs\QPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureDictionary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioDictionary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="com.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="freetype.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeglutGL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glmimg\libpng\png.h">
+      <Filter>Libs\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glmimg\libpng\pngconf.h">
+      <Filter>Libs\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glmimg\libpng\zlib\crc32.h">
+      <Filter>Libs\libpng\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glmimg\libpng\zlib\deflate.h">
+      <Filter>Libs\libpng\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glmimg\libpng\zlib\inffast.h">
+      <Filter>Libs\libpng\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glmimg\libpng\zlib\inffixed.h">
+      <Filter>Libs\libpng\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glmimg\libpng\zlib\inflate.h">
+      <Filter>Libs\libpng\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glmimg\libpng\zlib\inftrees.h">
+      <Filter>Libs\libpng\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glmimg\libpng\zlib\trees.h">
+      <Filter>Libs\libpng\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glmimg\libpng\zlib\zconf.h">
+      <Filter>Libs\libpng\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glmimg\libpng\zlib\zlib.h">
+      <Filter>Libs\libpng\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\glmimg\libpng\zlib\zutil.h">
+      <Filter>Libs\libpng\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\fmod\fmod.h">
+      <Filter>Libs\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\fmod\fmod.hpp">
+      <Filter>Libs\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\fmod\fmod_codec.h">
+      <Filter>Libs\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\fmod\fmod_dsp.h">
+      <Filter>Libs\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\fmod\fmod_errors.h">
+      <Filter>Libs\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\fmod\fmod_memoryinfo.h">
+      <Filter>Libs\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\fmod\fmod_output.h">
+      <Filter>Libs\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\QPC\QPC.h">
+      <Filter>Libs\QPC</Filter>
+    </ClInclude>
+    <ClInclude Include="com.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureDictionary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PresentationFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioDictionary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\wglext.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\rapidxml\rapidxml.hpp">
+      <Filter>Libs\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\rapidxml\rapidxml_iterators.hpp">
+      <Filter>Libs\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\rapidxml\rapidxml_print.hpp">
+      <Filter>Libs\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\rapidxml\rapidxml_utils.hpp">
+      <Filter>Libs\rapidxml</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DSST.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

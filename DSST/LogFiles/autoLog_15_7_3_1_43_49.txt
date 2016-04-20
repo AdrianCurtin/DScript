@@ -1,0 +1,6 @@
+LogFiles\autoLog_15_7_3_1_43_49.txt
+
+0	1878	Start	-100	0	0
+0	1878	COM	-1	50	0
+23	0	End	-101	0	0
+23	0	COM	-1	51	0

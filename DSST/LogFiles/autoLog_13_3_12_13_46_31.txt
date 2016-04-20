@@ -1,0 +1,11 @@
+LogFiles\autoLog_13_3_12_13_46_31.txt
+Sample.txt
+685	685	Start	-100	0	0
+97	782	fNext	-100	0	0
+1983	1886	mouseclick	-1	1393	473
+1983	1886	fRespond	1	-1	1
+1984	1887	fNext	1	1	0
+2487	503	mouseclick	-1	1393	473
+2487	503	fRespond	1	-1	1
+2488	504	fNext	1	2	0
+2488	0	End	-100	0	0

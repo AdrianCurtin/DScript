@@ -1,0 +1,12 @@
+LogFiles\autoLog_13_9_25_13_4_43.txt
+test.ds
+163	163	Start	-100	0	0
+42	205	fNext	-100	0	0
+743	701	mouseclick	-1	277	311
+743	701	fRespond	1	-1	1
+743	701	fNext	1	1	0
+1318	575	mouseclick	-1	277	311
+1318	575	fRespond	1	-1	1
+1318	575	fNext	1	2	0
+2213	895	mouseclick	-1	277	311
+2213	895	fRespond	-100	0	1

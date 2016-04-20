@@ -1,0 +1,28 @@
+LogFiles\autoLog_13_3_10_0_12_42.txt
+nback.ds
+191	191	Start	-100	0	0
+29	220	fNext	-100	0	0
+766	737	keypress	-10	32	1
+766	737	space	-2	32	1
+766	737	fRespond	1	-1	1
+766	737	fNext	1	1	0
+3268	2502	fTimeout	1	-1	0
+3272	2506	fNext	1	2	0
+5776	2504	fTimeout	1	0	0
+5780	2508	fNext	1	3	0
+8282	2502	fTimeout	1	0	0
+8286	2506	fNext	1	4	0
+10787	2501	fTimeout	1	0	0
+10791	2505	fNext	1	5	0
+13295	2504	fTimeout	1	0	0
+13299	2508	fNext	1	6	0
+15803	2504	fTimeout	1	0	0
+15807	2508	fNext	1	7	0
+18311	2504	fTimeout	1	1	0
+18315	2508	fNext	1	8	0
+20816	2501	fTimeout	1	1	0
+20820	2505	fNext	1	9	0
+23322	2502	fTimeout	1	0	0
+23326	2506	fNext	1	10	0
+25829	2503	fTimeout	1	0	0
+25833	2507	fNext	1	11	0

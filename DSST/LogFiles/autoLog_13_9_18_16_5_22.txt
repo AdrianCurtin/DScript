@@ -1,0 +1,11 @@
+LogFiles\autoLog_13_9_18_16_5_22.txt
+Sample.txt
+1314	1314	Start	-100	0	0
+258	1572	mouseclick	-1	827	185
+258	1572	fRespond	-100	0	1
+258	1572	fNext	-100	0	0
+2341	2083	keypress	-10	27	1
+2341	2083	Escape	-2	27	1
+2341	2083	fAbort	1	-1	0
+2341	2083	fNext	1	1	0
+2341	0	End	-100	0	0

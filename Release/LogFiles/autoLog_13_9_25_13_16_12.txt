@@ -1,0 +1,13 @@
+LogFiles\autoLog_13_9_25_13_16_12.txt
+test.ds
+147	147	Start	-100	0	0
+40	187	fNext	-100	0	0
+481	441	keypress	-10	32	1
+481	441	space	-2	32	1
+481	441	fRespond	1	-1	1
+481	441	fNext	1	1	0
+754	273	keypress	-10	32	1
+754	273	space	-2	32	1
+754	273	fRespond	1	-1	1
+754	273	fNext	1	2	0
+754	0	End	-100	0	0

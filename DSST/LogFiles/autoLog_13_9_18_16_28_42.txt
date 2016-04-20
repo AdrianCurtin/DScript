@@ -1,0 +1,5 @@
+LogFiles\autoLog_13_9_18_16_28_42.txt
+Sample.txt
+19594	19594	Start	-100	0	0
+1914	21508	fNext	-100	0	0
+1914	0	End	-100	0	0

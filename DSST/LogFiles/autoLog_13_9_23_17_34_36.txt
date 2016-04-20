@@ -1,0 +1,26 @@
+LogFiles\autoLog_13_9_23_17_34_36.txt
+D:\Dropbox\SCH\ReleaseV2\SAT\SAT.ds
+1160	1160	Start	-100	0	0
+164	1324	fNext	-100	0	0
+784	620	keypress	-10	32	1
+784	620	space	-2	32	1
+784	620	fRespond	1	-1	1
+784	620	fNext	1	1	0
+3786	3002	fTimeout	1	-1	0
+3786	3002	fNext	1	2	0
+3854	68	fTimeout	15	1	0
+3854	68	fNext	15	3	0
+3958	104	fTimeout	1	0	0
+3958	104	fNext	1	4	0
+4389	431	fTimeout	1	0	0
+4389	431	fNext	1	5	0
+4644	255	SAT response	-1	1	0
+4644	255	fRespond	16	0	1
+4644	255	fNext	16	6	0
+5144	500	fTimeout	17	1	0
+5144	500	fNext	17	7	0
+5201	57	keypress	-10	27	1
+5201	57	Escape	-2	27	1
+5201	57	fAbort	1	-1	0
+5201	57	End	-100	0	0
+5221	77	fNext	1	8	0

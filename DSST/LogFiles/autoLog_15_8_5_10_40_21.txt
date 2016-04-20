@@ -1,0 +1,14 @@
+LogFiles\autoLog_15_8_5_10_40_21.txt
+D:\VS2015\DScript\DSST\15s-DSST.ds
+0	17173	Start	-100	0	0
+0	17173	COM	-1	50	0
+37	0	fNext	1	1	0
+37	0	COM	-1	1	0
+601	564	keypress	-10	27	1
+601	564	Escape	-2	27	1
+601	564	COM	-1	22	0
+601	564	fAbort	101	-1	0
+601	564	End	-101	0	0
+601	564	COM	-1	51	0
+671	634	End	-101	0	0
+671	634	COM	-1	51	0

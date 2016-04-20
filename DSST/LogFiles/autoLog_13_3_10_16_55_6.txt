@@ -1,0 +1,5 @@
+LogFiles\autoLog_13_3_10_16_55_6.txt
+Sample.txt
+673	673	Start	-100	0	0
+112	785	fNext	-100	0	0
+112	0	End	-100	0	0

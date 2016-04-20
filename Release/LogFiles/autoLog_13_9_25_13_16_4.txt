@@ -1,0 +1,13 @@
+LogFiles\autoLog_13_9_25_13_16_4.txt
+C:\Users\AZXW\Documents\Visual Studio 2012\Projects\DSST\Release\test.ds
+2856	2856	Start	-100	0	0
+131	2987	fNext	-100	0	0
+642	511	keypress	-10	32	1
+642	511	space	-2	32	1
+642	511	fRespond	1	-1	1
+642	511	fNext	1	1	0
+1138	496	keypress	-10	32	1
+1138	496	space	-2	32	1
+1138	496	fRespond	1	-1	1
+1138	496	fNext	1	2	0
+1138	0	End	-100	0	0

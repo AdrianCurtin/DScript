@@ -1,0 +1,97 @@
+﻿Build started 7/30/2015 1:24:16 PM.
+     1>Project "D:\VS2015\DSST\DSST\Libs\freeglut\freeglut\freeglut.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(367,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (freeglut_static.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_DEPRECATE /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\freeglut.pdb" /Gd /TC /analyze- /errorReport:prompt /MD ..\src\fg_callbacks.c ..\src\fg_cursor.c ..\src\fg_display.c ..\src\fg_ext.c ..\src\fg_font.c ..\src\fg_font_data.c ..\src\fg_gamemode.c ..\src\fg_geometry.c ..\src\fg_gl2.c ..\src\fg_init.c ..\src\fg_input_devices.c ..\src\fg_joystick.c ..\src\fg_main.c ..\src\fg_menu.c ..\src\fg_misc.c ..\src\fg_overlay.c ..\src\fg_spaceball.c ..\src\fg_state.c ..\src\fg_stroke_mono_roman.c ..\src\fg_stroke_roman.c ..\src\fg_structure.c ..\src\fg_teapot.c ..\src\fg_videoresize.c ..\src\fg_window.c ..\src\mswin\fg_cursor_mswin.c ..\src\mswin\fg_display_mswin.c ..\src\mswin\fg_ext_mswin.c ..\src\mswin\fg_gamemode_mswin.c ..\src\mswin\fg_init_mswin.c ..\src\mswin\fg_input_devices_mswin.c ..\src\mswin\fg_joystick_mswin.c ..\src\mswin\fg_main_mswin.c ..\src\mswin\fg_menu_mswin.c ..\src\mswin\fg_spaceball_mswin.c ..\src\mswin\fg_state_mswin.c ..\src\mswin\fg_structure_mswin.c ..\src\mswin\fg_window_mswin.c ..\src\util\xparsegeometry_repl.c
+     1>cl : Command line warning D9025: overriding '/MTd' with '/MD'
+         xparsegeometry_repl.c
+         fg_window_mswin.c
+         fgSetupPixelFormat(): there is still some work to do here!
+         fg_structure_mswin.c
+         fg_state_mswin.c
+         fg_spaceball_mswin.c
+         fg_menu_mswin.c
+         fg_main_mswin.c
+     1>d:\vs2015\dsst\dsst\libs\freeglut\src\mswin\fg_main_mswin.c(480): warning C4293: '<<': shift count negative or too big, undefined behavior
+         fg_joystick_mswin.c
+         fg_input_devices_mswin.c
+         fg_init_mswin.c
+         fg_gamemode_mswin.c
+         fg_ext_mswin.c
+         fg_display_mswin.c
+         fg_cursor_mswin.c
+         fg_window.c
+         fg_videoresize.c
+         fg_teapot.c
+         fg_structure.c
+         fg_stroke_roman.c
+         fg_stroke_mono_roman.c
+         Generating Code...
+         Compiling...
+         fg_state.c
+         fg_spaceball.c
+         fg_overlay.c
+         fg_misc.c
+         fg_menu.c
+         fg_main.c
+         fg_joystick.c
+         fg_input_devices.c
+         fg_init.c
+     1>d:\vs2015\dsst\dsst\libs\freeglut\src\fg_init.c(363): warning C4013: 'XParseGeometry' undefined; assuming extern returning int
+         fg_gl2.c
+         fg_geometry.c
+         fg_gamemode.c
+         fg_font_data.c
+         fg_font.c
+         fg_ext.c
+         fg_display.c
+         fg_cursor.c
+         fg_callbacks.c
+     1>d:\vs2015\dsst\dsst\libs\freeglut\src\fg_callbacks.c(252): warning C4018: '<': signed/unsigned mismatch
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"D:\VS2015\DSST\\DSST\Libs\freeglut\freeglut_staticd.lib" /NOLOGO Debug\fg_callbacks.obj
+         Debug\fg_cursor.obj
+         Debug\fg_display.obj
+         Debug\fg_ext.obj
+         Debug\fg_font.obj
+         Debug\fg_font_data.obj
+         Debug\fg_gamemode.obj
+         Debug\fg_geometry.obj
+         Debug\fg_gl2.obj
+         Debug\fg_init.obj
+         Debug\fg_input_devices.obj
+         Debug\fg_joystick.obj
+         Debug\fg_main.obj
+         Debug\fg_menu.obj
+         Debug\fg_misc.obj
+         Debug\fg_overlay.obj
+         Debug\fg_spaceball.obj
+         Debug\fg_state.obj
+         Debug\fg_stroke_mono_roman.obj
+         Debug\fg_stroke_roman.obj
+         Debug\fg_structure.obj
+         Debug\fg_teapot.obj
+         Debug\fg_videoresize.obj
+         Debug\fg_window.obj
+         Debug\fg_cursor_mswin.obj
+         Debug\fg_display_mswin.obj
+         Debug\fg_ext_mswin.obj
+         Debug\fg_gamemode_mswin.obj
+         Debug\fg_init_mswin.obj
+         Debug\fg_input_devices_mswin.obj
+         Debug\fg_joystick_mswin.obj
+         Debug\fg_main_mswin.obj
+         Debug\fg_menu_mswin.obj
+         Debug\fg_spaceball_mswin.obj
+         Debug\fg_state_mswin.obj
+         Debug\fg_structure_mswin.obj
+         Debug\fg_window_mswin.obj
+         Debug\xparsegeometry_repl.obj
+         freeglut.vcxproj -> D:\VS2015\DSST\\DSST\Libs\freeglut\freeglut_staticd.lib
+     1>Done Building Project "D:\VS2015\DSST\DSST\Libs\freeglut\freeglut\freeglut.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.17

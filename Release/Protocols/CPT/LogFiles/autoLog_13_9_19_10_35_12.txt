@@ -1,0 +1,17 @@
+LogFiles\autoLog_13_9_19_10_35_12.txt
+C:\Users\AZXW\Documents\Visual Studio 2012\Projects\DSST\Release\Protocols\CPT\cpt1back.ds
+11950	11950	Start	-100	0	0
+264	12214	fNext	-100	0	0
+855	591	keypress	-10	32	1
+855	591	space	-2	32	1
+855	591	fRespond	1	-1	1
+855	591	fNext	1	1	0
+1398	543	keypress	-10	32	1
+1398	543	space	-2	32	1
+1398	543	fRespond	1	-1	1
+1398	543	fNext	1	2	0
+2152	754	keypress	-10	27	1
+2152	754	Escape	-2	27	1
+2152	754	fAbort	1	9	0
+2152	754	fNext	1	3	0
+2152	0	End	-100	0	0

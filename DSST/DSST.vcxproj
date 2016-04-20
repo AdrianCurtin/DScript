@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{276781EC-1178-484E-8D3B-487C795E11EC}</ProjectGuid>
+    <RootNamespace>DScript</RootNamespace>
+    <ProjectName>DScript</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140_xp</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>D:\VS2015\DSST\DSST\Libs\freeglut;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Libs\\fmod\\fmodex_vc.lib;Libs\\liblsl\\liblsl32.lib;Libs\\freetype\\freetype26MT.lib;Libs/freeglut/freeglut_static.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>Libs\\fmod\\fmodex_vc.lib;Libs\\liblsl\\liblsl32.lib;Libs\\freetype\\freetype26MT.lib;Libs/freeglut/freeglut_static.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+      <AdditionalOptions>/VERBOSE %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AudioDictionary.cpp" />
+    <ClCompile Include="com.cpp" />
+    <ClCompile Include="freetype.cpp" />
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="Libs\glmimg\glmimg.cpp" />
+    <ClCompile Include="Libs\glmimg\libpng\png.c" />
+    <ClCompile Include="Libs\glmimg\libpng\pngerror.c" />
+    <ClCompile Include="Libs\glmimg\libpng\pnggccrd.c" />
+    <ClCompile Include="Libs\glmimg\libpng\pngget.c" />
+    <ClCompile Include="Libs\glmimg\libpng\pngmem.c" />
+    <ClCompile Include="Libs\glmimg\libpng\pngpread.c" />
+    <ClCompile Include="Libs\glmimg\libpng\pngread.c" />
+    <ClCompile Include="Libs\glmimg\libpng\pngrio.c" />
+    <ClCompile Include="Libs\glmimg\libpng\pngrtran.c" />
+    <ClCompile Include="Libs\glmimg\libpng\pngrutil.c" />
+    <ClCompile Include="Libs\glmimg\libpng\pngset.c" />
+    <ClCompile Include="Libs\glmimg\libpng\pngtrans.c" />
+    <ClCompile Include="Libs\glmimg\libpng\pngvcrd.c" />
+    <ClCompile Include="Libs\glmimg\libpng\pngwio.c" />
+    <ClCompile Include="Libs\glmimg\libpng\pngwrite.c" />
+    <ClCompile Include="Libs\glmimg\libpng\pngwtran.c" />
+    <ClCompile Include="Libs\glmimg\libpng\pngwutil.c" />
+    <ClCompile Include="Libs\glmimg\libpng\zlib\adler32.cpp" />
+    <ClCompile Include="Libs\glmimg\libpng\zlib\compress.cpp" />
+    <ClCompile Include="Libs\glmimg\libpng\zlib\crc32.cpp" />
+    <ClCompile Include="Libs\glmimg\libpng\zlib\deflate.cpp" />
+    <ClCompile Include="Libs\glmimg\libpng\zlib\gzio.cpp" />
+    <ClCompile Include="Libs\glmimg\libpng\zlib\infback.cpp" />
+    <ClCompile Include="Libs\glmimg\libpng\zlib\inffast.cpp" />
+    <ClCompile Include="Libs\glmimg\libpng\zlib\inflate.cpp" />
+    <ClCompile Include="Libs\glmimg\libpng\zlib\inftrees.cpp" />
+    <ClCompile Include="Libs\glmimg\libpng\zlib\trees.cpp" />
+    <ClCompile Include="Libs\glmimg\libpng\zlib\uncompr.cpp" />
+    <ClCompile Include="Libs\glmimg\libpng\zlib\zutil.cpp" />
+    <ClCompile Include="Libs\QPC\QPC.cpp" />
+    <ClCompile Include="Log.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="TextureDictionary.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AudioDictionary.h" />
+    <ClInclude Include="com.h" />
+    <ClInclude Include="FreeglutGL.h" />
+    <ClInclude Include="freetype.h" />
+    <ClInclude Include="game.h" />
+    <ClInclude Include="Libs\fmod\fmod.h" />
+    <ClInclude Include="Libs\fmod\fmod.hpp" />
+    <ClInclude Include="Libs\fmod\fmod_codec.h" />
+    <ClInclude Include="Libs\fmod\fmod_dsp.h" />
+    <ClInclude Include="Libs\fmod\fmod_errors.h" />
+    <ClInclude Include="Libs\fmod\fmod_memoryinfo.h" />
+    <ClInclude Include="Libs\fmod\fmod_output.h" />
+    <ClInclude Include="Libs\glmimg\libpng\png.h" />
+    <ClInclude Include="Libs\glmimg\libpng\pngconf.h" />
+    <ClInclude Include="Libs\glmimg\libpng\zlib\crc32.h" />
+    <ClInclude Include="Libs\glmimg\libpng\zlib\deflate.h" />
+    <ClInclude Include="Libs\glmimg\libpng\zlib\inffast.h" />
+    <ClInclude Include="Libs\glmimg\libpng\zlib\inffixed.h" />
+    <ClInclude Include="Libs\glmimg\libpng\zlib\inflate.h" />
+    <ClInclude Include="Libs\glmimg\libpng\zlib\inftrees.h" />
+    <ClInclude Include="Libs\glmimg\libpng\zlib\trees.h" />
+    <ClInclude Include="Libs\glmimg\libpng\zlib\zconf.h" />
+    <ClInclude Include="Libs\glmimg\libpng\zlib\zlib.h" />
+    <ClInclude Include="Libs\glmimg\libpng\zlib\zutil.h" />
+    <ClInclude Include="Libs\QPC\QPC.h" />
+    <ClInclude Include="Libs\rapidxml\rapidxml.hpp" />
+    <ClInclude Include="Libs\rapidxml\rapidxml_iterators.hpp" />
+    <ClInclude Include="Libs\rapidxml\rapidxml_print.hpp" />
+    <ClInclude Include="Libs\rapidxml\rapidxml_utils.hpp" />
+    <ClInclude Include="Libs\wglext.h" />
+    <ClInclude Include="Log.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="PresentationFrame.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TextureDictionary.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DSST.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,13 @@
+LogFiles\autoLog_13_3_11_21_0_30.txt
+Sample.txt
+738	738	Start	-100	0	0
+68	806	fNext	-100	0	0
+732	664	keypress	-10	32	1
+732	664	space	-2	32	1
+732	664	fRespond	1	-1	1
+733	665	fNext	1	1	0
+923	190	keypress	-10	32	1
+923	190	space	-2	32	1
+923	190	fRespond	1	-1	1
+925	192	fNext	1	2	0
+925	0	End	-100	0	0

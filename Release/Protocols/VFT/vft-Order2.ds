@@ -1,0 +1,37 @@
+10	1
+11	-1
+100	1
+	17	rest.png
+	18	welcome.png
+	19	finished.png
+	20	instructionCategory.png
+	21	category1.png
+	22	category2.png
+	23	category3.png
+	30	instructionVerbal.png
+	31	verb1.png
+	32	verb2.png
+	33	verb3.png
+-1
+300	1
+-1
+200	1
+1	0	-1	18	0
+1	0	-1	30	0
+1	30	10	17	0
+1	30	1	31	-1
+1	30	10	17	0
+1	30	1	32	-1
+1	30	10	17	0
+1	30	1	33	-1
+1	30	10	17	0
+1	0	-1	20	0
+1	30	10	17	0
+1	30	1	21	-1
+1	30	10	17	0
+1	30	1	22	-1
+1	30	10	17	0
+1	30	1	23	-1
+1	30	10	17	0
+1	0	-1	19	0
+-1
