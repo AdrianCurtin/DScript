@@ -1,1 +1,0 @@
-..\DSST.exe aTest.ds

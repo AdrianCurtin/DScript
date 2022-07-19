@@ -1,6 +1,0 @@
-LogFiles\autoLog_15_7_2_13_2_51.txt
-
-0	7110	Start	-100	0	0
-0	7110	COM	-1	50	0
-40	0	End	-101	0	0
-40	0	COM	-1	51	0
