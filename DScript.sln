@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DScript", "DSST\DSST.vcxproj", "{276781EC-1178-484E-8D3B-487C795E11EC}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -11,9 +11,6 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "freeglut", "DSST\Libs\freeglut\freeglut\freeglut.vcxproj", "{C4F70BF0-BAD3-4C94-9AA0-948F06B190E3}"
 EndProject
 Global
-	GlobalSection(Performance) = preSolution
-		HasPerformanceSessions = true
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
 		Debug|x64 = Debug|x64
@@ -23,10 +20,12 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{276781EC-1178-484E-8D3B-487C795E11EC}.Debug|Win32.ActiveCfg = Debug|Win32
 		{276781EC-1178-484E-8D3B-487C795E11EC}.Debug|Win32.Build.0 = Debug|Win32
-		{276781EC-1178-484E-8D3B-487C795E11EC}.Debug|x64.ActiveCfg = Debug|Win32
+		{276781EC-1178-484E-8D3B-487C795E11EC}.Debug|x64.ActiveCfg = Debug|x64
+		{276781EC-1178-484E-8D3B-487C795E11EC}.Debug|x64.Build.0 = Debug|x64
 		{276781EC-1178-484E-8D3B-487C795E11EC}.Release|Win32.ActiveCfg = Release|Win32
 		{276781EC-1178-484E-8D3B-487C795E11EC}.Release|Win32.Build.0 = Release|Win32
-		{276781EC-1178-484E-8D3B-487C795E11EC}.Release|x64.ActiveCfg = Release|Win32
+		{276781EC-1178-484E-8D3B-487C795E11EC}.Release|x64.ActiveCfg = Release|x64
+		{276781EC-1178-484E-8D3B-487C795E11EC}.Release|x64.Build.0 = Release|x64
 		{C4F70BF0-BAD3-4C94-9AA0-948F06B190E3}.Debug|Win32.ActiveCfg = Release|Win32
 		{C4F70BF0-BAD3-4C94-9AA0-948F06B190E3}.Debug|Win32.Build.0 = Release|Win32
 		{C4F70BF0-BAD3-4C94-9AA0-948F06B190E3}.Debug|x64.ActiveCfg = Release|x64
@@ -38,5 +37,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49A8E167-FF0A-4272-87CF-CC09A847F68E}
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
 	EndGlobalSection
 EndGlobal

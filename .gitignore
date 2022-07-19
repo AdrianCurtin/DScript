@@ -48,3 +48,8 @@ Temporary Items
 
 *.suo
 .vs
+Debug/
+*.obj
+DSST/Libs/freeglut/freeglut/Debug/
+DSST/Libs/freeglut/freeglut/Release/
+*.pdb
